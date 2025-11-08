@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   block-size: 100%;
 }
 
@@ -55,17 +55,19 @@ ol {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin: 0 auto;
   inline-size: 1200px;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  min-block-size: 100vh;
 }
 
 .content {
-  margin-top: 133px;
+  /*margin-top: 133px;*/
+ /* margin-bottom: 110px;*/
   display: flex;
   padding: 0;
   align-items: flex-end;
@@ -150,14 +152,14 @@ ol {
   gap: 15px;
 }
 
-.search-form__checkbox {
+/*.search-form__checkbox {
   position: absolute;
   z-index: 2;
-}
+}*/
 
-.search-form__checkbox:focus {
+/*.search-form__checkbox:focus {
   outline: none;
-}
+}*/
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #ffffff;
