@@ -66,8 +66,6 @@ ol {
 }
 
 .content {
-  /*margin-top: 133px;*/
- /* margin-bottom: 110px;*/
   display: flex;
   padding: 0;
   align-items: flex-end;
@@ -151,15 +149,6 @@ ol {
   align-items: center;
   gap: 15px;
 }
-
-/*.search-form__checkbox {
-  position: absolute;
-  z-index: 2;
-}*/
-
-/*.search-form__checkbox:focus {
-  outline: none;
-}*/
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #ffffff;
